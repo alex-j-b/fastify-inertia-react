@@ -18,7 +18,7 @@
     "@inertiajs/react": "2.2.6",
     "express-session": "1.18.2",
     "fastify": "5.6.1",
-    "fastify-inertiajs": "1.0.5",
+    "fastify-inertiajs": "github:alex-j-b/fastify-inertia#feat/fastify-adapter",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },

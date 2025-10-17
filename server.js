@@ -30,6 +30,7 @@ async function bootstrap() {
   await app.register(inertia, inertiaConfig);
 
   app.get("/", (req, reply) => {
+    reply.setCookie("test", "20"); // this is a test to see if fastify lifecycle is working
     reply.inertia.render("home");
   });
 
